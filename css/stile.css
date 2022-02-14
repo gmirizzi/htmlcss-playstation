@@ -20,3 +20,17 @@ main {
 #ps5 .cards img {
     height: 100px;
 }
+
+.banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.card {
+    background: none;
+    border: none;
+}
