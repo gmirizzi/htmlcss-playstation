@@ -1,5 +1,18 @@
+nav {
+    margin-top: 31px;
+}
+
+main {
+    margin-top: 107px;
+}
+
 #jumbotron {
     height: 675px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
+}
+
+.cards img{
+    height: 100px;
+    border-radius: 1em;
 }
