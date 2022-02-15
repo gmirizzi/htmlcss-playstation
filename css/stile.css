@@ -17,6 +17,10 @@ main {
     background-position: center;
 }
 
+main header .card:hover {
+    transform: translate(0, -10px);
+}
+
 header .card-img-top {
     border: 2px solid transparent;
     padding: 2px;
@@ -46,6 +50,7 @@ header .active {
     border: none;
     cursor: pointer;
     border-radius: 0;
+    transition: all .5s;
 }
 
 #plusbanner {
