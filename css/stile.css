@@ -27,6 +27,11 @@ header .active {
     border: 2px solid blue;
 }
 
+#ps5 .active {
+    opacity: initial;
+    border-bottom: 2px solid blue;
+}
+
 .banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -40,6 +45,7 @@ header .active {
     background: none;
     border: none;
     cursor: pointer;
+    border-radius: 0;
 }
 
 #plusbanner {
