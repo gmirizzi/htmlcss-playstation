@@ -45,6 +45,11 @@ main {
     background-color: #bebcbbff;
 }
 
+#plusbanner a {
+    background-color: #d9dadcff;
+    border: none;
+}
+
 #nowbanner {
     background-color: #161c3bff;
 }
@@ -55,9 +60,4 @@ footer {
 
 footer ul{
     list-style: none;
-}
-
-footer a {
-    color: unset;
-    text-decoration: none;
 }
