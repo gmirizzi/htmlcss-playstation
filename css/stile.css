@@ -22,10 +22,6 @@ main {
     border-radius: 1em;
 }
 
-#ps5 .cards img {
-    height: 100px;
-}
-
 .banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
