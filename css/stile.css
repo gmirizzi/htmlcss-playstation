@@ -39,3 +39,12 @@ main {
     background: none;
     border: none;
 }
+
+footer ul{
+    list-style: none;
+}
+
+footer a {
+    color: unset;
+    text-decoration: none;
+}
