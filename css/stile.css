@@ -2,6 +2,10 @@ nav {
     margin-top: 31px;
 }
 
+.console {
+    display: flex;
+}
+
 main {
     margin-top: 107px;
 }
