@@ -38,6 +38,7 @@ main {
 .card {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 #plusbanner {
