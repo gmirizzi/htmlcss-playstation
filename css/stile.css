@@ -40,6 +40,18 @@ main {
     border: none;
 }
 
+#plusbanner {
+    background-color: #bebcbbff;
+}
+
+#nowbanner {
+    background-color: #161c3bff;
+}
+
+footer {
+    background-color: #00439cff;
+}
+
 footer ul{
     list-style: none;
 }
