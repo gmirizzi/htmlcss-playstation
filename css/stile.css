@@ -4,6 +4,7 @@ nav {
 
 .console {
     display: flex;
+    padding: 1em;
 }
 
 main {
