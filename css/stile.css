@@ -17,11 +17,6 @@ main {
     background-position: center;
 }
 
-.cards img{
-    height: 100px;
-    border-radius: 1em;
-}
-
 .banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
