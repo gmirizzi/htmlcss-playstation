@@ -10,6 +10,22 @@ nav ul {
     transform: rotate(180deg);
 }
 
+.nav-link img {
+    transition: all .5s;
+}
+
+.nav-link img:last-child {
+    display: none;
+}
+
+.nav-link:hover img:first-child {
+    display: none;
+}
+
+.nav-link:hover img:last-child {
+    display: initial;
+}
+
 li::marker {
     color: blue;
 }
