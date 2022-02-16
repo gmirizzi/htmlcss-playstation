@@ -17,14 +17,15 @@ main {
     background-position: center;
 }
 
-main header .card:hover {
-    transform: translate(0, -10px);
-}
-
 header .card-img-top {
     border: 2px solid transparent;
     padding: 2px;
     border-radius: 1em;
+}
+
+#ps5 .card {
+    border-bottom: 2px solid transparent;
+    filter: opacity(50%);
 }
 
 header .active {
@@ -32,8 +33,21 @@ header .active {
 }
 
 #ps5 .active {
-    opacity: initial;
     border-bottom: 2px solid blue;
+    filter: opacity(100);
+}
+
+header .card {
+    transition: all .5s;
+}
+
+main header .card:hover {
+    transform: translate(0, -10px);
+}
+
+#ps5 .card:hover {
+    border-color: blue;
+    filter: opacity(100);
 }
 
 .banner {
@@ -50,7 +64,6 @@ header .active {
     border: none;
     cursor: pointer;
     border-radius: 0;
-    transition: all .5s;
 }
 
 #plusbanner {
