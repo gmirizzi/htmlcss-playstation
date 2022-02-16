@@ -37,7 +37,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <div class="console text-center">
+                                <div class="d-flex p-1 text-center">
                                     <div class="card dropdown-item">
                                         <img src="img/play-menu-ico.png" class="card-img-top" alt="icona playstation">
                                         <h5 class="card-title">Playstation 5</h5>
@@ -55,7 +55,13 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <ul class="d-flex justify-content-evenly">
+                                    <li><a class="dropdown-item" href="#">Link giochi</a></li>
+                                    <li><a class="dropdown-item" href="#">Link giochi</a></li>
+                                    <li><a class="dropdown-item" href="#">Link giochi</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -129,26 +135,34 @@
                         </ul>
                     </li>
                 </ul>
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    My PlayStation
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-center align-items-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            My PlayStation
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li class="nav-item m-2">
+                        <button class="btn btn-dark rounded-pill">Accedi</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
-                <button class="btn btn-outline-success" type="submit">Accedi</button>
-                <button class="btn btn-outline-success" type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-search" viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg>
-                </button>
             </div>
         </div>
     </nav>
@@ -164,23 +178,23 @@
                         <button class="btn btn-danger rounded-pill">Acquista ora</button>
                     </div>
                 </div>
-                <div class="row mt-3 px-5 text-center">
-                    <div class="card col-6 col-sm-4 col-lg-2 g-4">
+                <div class="row mt-3 px-5 g-4 text-center">
+                    <div class="card col-6 col-sm-4 col-lg-2">
                         <img src="img/returnal-listing-thumb-01-ps5.jpg" class="active card-img-top" alt="">
                     </div>
-                    <div class="card col-6 col-sm-4 col-lg-2 g-4">
+                    <div class="card col-6 col-sm-4 col-lg-2">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top" alt="">
                     </div>
-                    <div class="card col-6 col-sm-4 col-lg-2 g-4">
+                    <div class="card col-6 col-sm-4 col-lg-2">
                         <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top" alt="">
                     </div>
-                    <div class="card col-6 col-sm-4 col-lg-2 g-4">
+                    <div class="card col-6 col-sm-4 col-lg-2">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top" alt="">
                     </div>
-                    <div class="card col-6 col-sm-4 col-lg-2 g-4">
+                    <div class="card col-6 col-sm-4 col-lg-2">
                         <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top" alt="">
                     </div>
-                    <div class="card col-6 col-sm-4 col-lg-2 g-4">
+                    <div class="card col-6 col-sm-4 col-lg-2">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top" alt="">
                     </div>
                 </div>
@@ -201,26 +215,26 @@
                         <img src="img/playstation-5-thumb.png" alt="playstation 5" width="100%">
                     </div>
                 </div>
-                <div class="row row-cols-3 row-cols-md-5 g-3">
+                <div class="row row-cols-3 row-cols-md-5 g-4">
                     <div class="card col active">
-                        <img src="img/playstation-5-thumb.png" class="card-img-top px-lg-5" alt="">
-                        <h3 class="card-title d-none d-md-block fs-5 mt-2">Console PS5</h3>
+                        <img src="img/playstation-5-thumb.png" class="card-img-top mb-3 px-lg-5" alt="">
+                        <h3 class="card-title d-none d-md-block fs-5">Console PS5</h3>
                     </div>
                     <div class="card col">
-                        <img src="img/joypad-thumb.png" class="card-img-top px-lg-5" alt="">
-                        <h3 class="card-title d-none d-md-block fs-5 mt-2">Controller wireless DualSense</h3>
+                        <img src="img/joypad-thumb.png" class="card-img-top mb-3 px-lg-5" alt="">
+                        <h3 class="card-title d-none d-md-block fs-5">Controller wireless DualSense</h3>
                     </div>
                     <div class="card col">
-                        <img src="img/headset-thumb.png" class="card-img-top px-lg-5" alt="">
-                        <h3 class="card-title d-none d-md-block fs-5 mt-2">Cuffie wireless con microfono PULSE 3</h3>
+                        <img src="img/headset-thumb.png" class="card-img-top mb-3 px-lg-5" alt="">
+                        <h3 class="card-title d-none d-md-block fs-5">Cuffie wireless con microfono PULSE 3</h3>
                     </div>
                     <div class="card col">
-                        <img src="img/remote-thumb.png" class="card-img-top px-lg-5" alt="">
-                        <h3 class="card-title d-none d-md-block fs-5 mt-2">Telecomando Media</h3>
+                        <img src="img/remote-thumb.png" class="card-img-top mb-3 px-lg-5" alt="">
+                        <h3 class="card-title d-none d-md-block fs-5">Telecomando Media</h3>
                     </div>
                     <div class="card col">
-                        <img src="img/camera-thumb.jpg" class="card-img-top px-lg-5" alt="">
-                        <h3 class="card-title d-none d-md-block fs-5 mt-2">Telecamera HD</h3>
+                        <img src="img/camera-thumb.jpg" class="card-img-top mb-3 px-lg-5" alt="">
+                        <h3 class="card-title d-none d-md-block fs-5">Telecamera HD</h3>
                     </div>
                 </div>
             </div>
