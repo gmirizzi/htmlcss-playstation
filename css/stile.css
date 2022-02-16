@@ -29,6 +29,7 @@ header .card-img-top {
 #ps5 .card {
     border-bottom: 2px solid transparent;
     filter: opacity(50%);
+    height: 100%;
 }
 
 header .active {
