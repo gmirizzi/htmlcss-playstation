@@ -30,6 +30,25 @@ li::marker {
     color: blue;
 }
 
+.btn {
+    border: 2px solid transparent;
+}
+
+.btn-dark:hover {
+    border: 2px solid white;
+    outline: 2px solid black;
+}
+
+.btn-danger:hover {
+    border: 2px solid white;
+    outline: 2px solid #dc3545;
+}
+
+.btn-primary:hover {
+    border: 2px solid white;
+    outline: 2px solid blue;
+}
+
 main {
     margin-top: 107px;
 }
