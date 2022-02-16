@@ -2,6 +2,14 @@ nav {
     margin-top: 31px;
 }
 
+nav ul {
+    list-style-type: disc;
+}
+
+li::marker {
+    color: blue;
+}
+
 main {
     margin-top: 107px;
 }
