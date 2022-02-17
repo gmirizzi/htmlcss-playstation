@@ -6,7 +6,7 @@ nav ul {
     list-style-type: disc;
 }
 
-.nav-link:focus img {
+.nav-link.show img {
     transform: rotate(180deg);
 }
 
